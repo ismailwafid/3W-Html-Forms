@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,500&family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="titre">
+            <h1>Pique-nique Multi-associatios</h1>
+            <p><strong>Transcriptions</strong></p>
+        </div>
+    </header>
+    <form action="">
+        <div class="prenom">
+            <label for="">Prénom:</label>
+            <input type="text" required>
+        </div><br>
+        <div class="Motsdepasse">
+            <label for="">Mots de passe:</label>
+            <input type="password" required>
+        </div><br>
+        <div class="association">
+            <label for="">Association:</label>
+            <input type="text">
+        </div><br>
+        <div class="semaine">
+            <label for=""><strong>Disponibilités pour la semaine: </strong></label>
+            <label for="">Lundi</label>
+            <input type="checkbox">
+            <label for="">Mardi</label>
+            <input type="checkbox">
+            <label for="">Mercredi</label>
+            <input type="checkbox">
+            <label for="">Jeudi</label>
+            <input type="checkbox">
+            <label for="">Vendredi</label>
+            <input type="checkbox">
+            <label for="">Samedi</label>
+            <input type="checkbox">
+            <label for="">Dimanche</label>
+            <input type="checkbox">   
+        </div><br>
+        <div class="contribution">
+            <label for=""><strong>contribution:</strong></label>
+            <input type="radio">
+            <label for="">Entrée</label>
+            <input type="radio">
+            <label for="">Plat</label>
+            <input type="radio">
+            <label for="">Dessert</label>
+        </div><br>
+        <div class="commentaire">
+            <!-- <label for="story"><strong>Commentaires: </strong></label> -->
+            <p>Commentaire:</p>
+            <textarea id="story" name="story"
+                      rows="5" cols="33">
+            </textarea>
+        </div><br>
+        <div class="submit">
+            <input type="submit" value="S'inscrire">
+            <input type="submit" value="Annulé">  
+        </div>
+    </form>
+</body>
+</html>
